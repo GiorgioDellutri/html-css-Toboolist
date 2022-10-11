@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.box{
+    width: 100%;
+    height: 90px;
+    background-color:white;
+    border: 1 px solid red;
+}
+
+.box img{
+    height: 5rem;
+    padding-left: 25px;
+    vertical-align: middle;
+}
+
+.box h1{
+    font-size: 3rem;
+    display: inline-block;
+    line-height: 90px;
+    vertical-align: middle;
+}
