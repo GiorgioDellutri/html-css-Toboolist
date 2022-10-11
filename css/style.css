@@ -66,7 +66,7 @@ body{
 }
 
 .new-task{
-    margin: 10px 0 10px 70px;
+    margin-left: 65px;
 }
 
 .menu-arrow{
@@ -83,9 +83,12 @@ body{
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    border: 1px solid forestgreen;
     display: inline-block;
     text-align: center;
+}
+
+.true{
+    border: 1px solid forestgreen;
 }
 
 .yes{
@@ -94,19 +97,53 @@ body{
 }
 
 .subtitle{
-    margin: 5px;
+    margin-left: 9px;
+    margin-top: 30px;
     font-size: 1.2rem;
 }
 
-.editorial{
+.tag{
     display: inline-block;
     width: 80px;
     height: 30px;
     color: white;
     font-size: 0.9em;
-    background-color:rgb(71,173,241);
     border-radius: 15px;
     text-align: center;
     padding: 6px;
+    margin: 10px;
 }
 
+.editorial{
+    background-color:rgb(71,173,241);
+}
+
+.goal{
+    background-color:rgb(156,114,228);
+}
+
+.recruiting{
+    background-color:rgb(100,192,169);
+}
+
+.mobile{
+    background-color: rgb(242,158,50);
+}
+
+.website{
+    background-color: rgb(216,99,161);
+}
+
+.sales{
+    background-color: rgb(176,201,39) ;
+}
+
+
+.false{
+    border: 1px solid red;
+}
+
+.no{
+    color: red;
+    height: 2px;
+}
